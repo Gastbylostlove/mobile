@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text=" 동백점 가맹점 찾기"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="14dp"
+            android:layout_weight="0.2"
+            android:text="동백전 가맹점 찾기' 에서는 동백전 가맹점 등록 신청에 대해 승인된   가맹점만 확인 가능합니다." />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="가야동 가맹점 카테고리"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="329dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/restarunt"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#B3B2B2"
+                    android:text="음식점"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/cafe"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#B3B2B2"
+                    android:text="카페"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/cvs"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#B3B2B2"
+                    android:text="편의점"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/medicine"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#B3B2B2"
+                    android:text="의료"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+
+                <Button
+                    android:id="@+id/education"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#B3B2B2"
+                    android:text="교육"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/beauty"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#B3B2B2"
+                    android:text="미용"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/culture"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#B3B2B2"
+                    android:text="문화/취미"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+
+                <Button
+                    android:id="@+id/circulation"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#B3B2B2"
+                    android:text="유통"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/etc"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#B3B2B2"
+                    android:text="기타"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:background="#C8C6C6"
+            android:text="가맹점 폐업, 업종변경 등 가맹점 정보 변경되거나 소지하고 있는 카드 종류에 따라 현재 정보와 상이할 수 있습니다" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="←" />
+
+    </LinearLayout>
+
+</RelativeLayout>
